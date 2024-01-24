@@ -34,6 +34,6 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: The JavaScript file prevents a GET request from the server after sending the data, which would reload the page.
-    Afterwards, it creates a new note, adds the note to the notes list, rerenders the list on the page, and sends the note to the server.
+    Note right of browser: Afterwards, it creates a new note, adds the note to the notes list, rerenders the list on the page, and sends the note to the server.
 
 ```
